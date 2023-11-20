@@ -13,11 +13,7 @@ public interface UserService {
 
     void updateUser(User user);
 
-    User getUserById(Long id);
-
     User getUserByName(String name);
-
-    User getUserByEmail(String email);
 
     String getCurrentUserName();
 }
